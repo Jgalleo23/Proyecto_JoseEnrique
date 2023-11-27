@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PetHome</string>
+    <string name="app_description">%s, estás usando la versión 1 de PetHome</string>
+    <string name="welcomeText">Bienvenido a PetHome</string>
+    <string name="usingVersion">PetHome es una aplicación desarrollada para toda persona que posea una mascota,
+                                o quiera cuidar de una. En PetHome puedes compartir el día a día de tu mascota,
+                                podrás registrar información, interaccionar con el resto de usuarios, controlar el estado de tu mascota...
+    </string>
+    <string name="contact">Contacto</string>
+</resources>
