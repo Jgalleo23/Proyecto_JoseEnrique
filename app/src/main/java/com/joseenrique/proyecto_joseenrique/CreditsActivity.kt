@@ -10,7 +10,7 @@ import android.widget.TextView
 class CreditsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_credits)
+        setContentView(R.layout.fragment_credits)
 
         val tvAppName = findViewById<TextView>(R.id.tvAppName)
 

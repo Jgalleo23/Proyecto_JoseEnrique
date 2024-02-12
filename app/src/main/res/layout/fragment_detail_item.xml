@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".data.DetailItemFragment">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tvUsuarioBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/usuario"
+        app:layout_constraintStart_toStartOf="@+id/ivPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/ivPhoto"
+        tools:text="maria_lopez" />
+
+    <CheckBox
+        android:id="@+id/chkLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:button="@drawable/baseline_favorite_24"
+        app:layout_constraintEnd_toEndOf="@+id/ivPhoto"
+        app:layout_constraintStart_toEndOf="@+id/tvUsuarioBottom"
+        app:layout_constraintTop_toBottomOf="@+id/ivPhoto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

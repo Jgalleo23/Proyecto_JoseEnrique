@@ -7,4 +7,10 @@
                                 podrás registrar información, interaccionar con el resto de usuarios, controlar el estado de tu mascota...
     </string>
     <string name="contact">Contacto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usuario" />
+    <string name="mascota" />
+    <string name="sexo" />
+    <string name="nombre" />
 </resources>

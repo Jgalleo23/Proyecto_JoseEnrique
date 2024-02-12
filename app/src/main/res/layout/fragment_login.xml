@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Añade un switch para cambiar la aplicación del tema claro al tema oscuro -->
+        <Switch
+            android:id="@+id/swTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Tema Oscuro"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/welcomeText"/>
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"/>
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:autofillHints="username"
+            android:hint="Usuario"/>
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:autofillHints="contrasena"
+            android:hint="Contraseña"/>
+
+        <Button
+            android:id="@+id/btIniciarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:text="Iniciar Sesion"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
