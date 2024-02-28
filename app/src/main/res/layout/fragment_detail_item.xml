@@ -6,6 +6,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".data.DetailItemFragment">
 
+
+
+    <TextView
+        android:id="@+id/tvUsuarioTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivPhoto"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="maria_lopez"
+        android:textColor="@color/black"
+        />
+
+
     <ImageView
         android:id="@+id/ivPhoto"
         android:layout_width="250dp"
@@ -14,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUsuarioTop"
         tools:src="@drawable/logo"/>
 
     <TextView
@@ -22,7 +38,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/usuario"
         app:layout_constraintStart_toStartOf="@+id/ivPhoto"
         app:layout_constraintTop_toBottomOf="@+id/ivPhoto"
         tools:text="maria_lopez" />

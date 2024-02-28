@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetHome</string>
+    <string name="app_description">, you are using version 1.2 of PetHome</string>
+    <string name="welcomeText">Welcome to PetHome</string>
+    <string name="usingVersion">PetHome is an application developed for anyone who owns a pet, or wants to take care of one. In PetHome you can share your pet’s day-to-day life, you can register information, interact with other users, monitor your pet’s status…</string>
+    <string name="contact">Contact</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usuario">##**USER DESCRIPTION**##</string>
+    <string name="salir">Back</string>
+    <string name="perfil">Profile</string>
+    <string name="credits">Credits</string>
+    <string name="favoritos">Favourites</string>
+    <string name="nombre"></string>
+    <string name="mascota" ></string>
+    <string name="sexo" ></string>
+</resources>

@@ -18,7 +18,12 @@
         android:id="@+id/creditsFragment"
         android:name="com.joseenrique.proyecto_joseenrique.CreditsFragment"
         android:label="fragment_credits"
-        tools:layout="@layout/fragment_credits" />
+        tools:layout="@layout/fragment_credits" >
+        <action
+            android:id="@+id/action_creditsFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:popUpTo="@id/menuFragment" />
+    </fragment>
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.joseenrique.proyecto_joseenrique.MenuFragment"
@@ -31,5 +36,21 @@
             android:id="@+id/action_menuFragment_to_loginFragment"
             app:destination="@id/loginFragment"
             app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_userInfoFragment"
+            app:destination="@id/userInfoFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_itemListFragment"
+            app:destination="@id/itemListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.joseenrique.proyecto_joseenrique.data.ItemListFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/userInfoFragment"
+        android:name="com.joseenrique.proyecto_joseenrique.data.Usuario.UserInfoFragment"
+        android:label="fragment_user_info"
+        tools:layout="@layout/fragment_user_info" />
 </navigation>
