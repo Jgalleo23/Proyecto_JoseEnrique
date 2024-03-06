@@ -9,7 +9,7 @@ class UsuarioProvider {
                 "Masculino",
                 "123456",
                 "Ninguna",
-                "https://th.bing.com/th/id/R.a46de4bce09d11d54b1fa1646a4c08ac?rik=nFM4XGgVhMITiw&pid=ImgRaw&r=0",
+                "labrador",
                 ""
             ),
             Usuario(
@@ -18,7 +18,7 @@ class UsuarioProvider {
                 "Masculino",
                 "123456",
                 "Ninguna",
-                "https://i.pinimg.com/originals/d1/13/47/d11347224ce42bca551674ee32210afe.jpg",
+                "labrador",
                 ""
             ),
             Usuario(
@@ -27,7 +27,7 @@ class UsuarioProvider {
                 "Masculino",
                 "123456",
                 "Ninguna",
-                "https://www.elmueble.com/medio/2023/03/02/perro-de-raza-beagle_67c65dda_230302133829_900x900.jpg",
+                "labrador",
                 ""
             ),
             Usuario(

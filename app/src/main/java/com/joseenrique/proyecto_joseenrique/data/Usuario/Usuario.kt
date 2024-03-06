@@ -5,7 +5,7 @@ data class Usuario (
     val descripcion: String,
     val sexo: String,
     val contrasena: String,
-    val nombreMascota: String,
+    val razaMascota: String,
     val foto: String,
     val fotoPerfil: String,
     var isFavorite: Boolean = false

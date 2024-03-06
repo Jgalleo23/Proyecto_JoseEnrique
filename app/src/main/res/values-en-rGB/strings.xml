@@ -12,6 +12,12 @@
     <string name="credits">Credits</string>
     <string name="favoritos">Favourites</string>
     <string name="nombre"></string>
-    <string name="mascota" ></string>
-    <string name="sexo" ></string>
+    <string name="mascota"></string>
+    <string name="sexo"></string>
+    <string name="intro">Preferences</string>
+    <string name="bienvenida">¡Welcome to PetHome!
+                                Set up your preferences</string>
+    <string name="verPantalla">Never show that screen again</string>
+    <string name="buscador">Search</string>
+    <string name="mascotaTexto">My pet is an:</string>
 </resources>

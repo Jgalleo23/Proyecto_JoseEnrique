@@ -7,7 +7,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.joseenrique.proyecto_joseenrique.R
 import com.joseenrique.proyecto_joseenrique.data.Usuario.UsuarioProvider.Companion.listaUsuarios
 
-class UsuarioAdapter(private var listaUsuario : List<Usuario>) : RecyclerView.Adapter<UsuarioViewHolder>() {
+class UsuarioAdapter(private var listaUsuario: List<Usuario>) : RecyclerView.Adapter<UsuarioViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UsuarioViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         return UsuarioViewHolder(layoutInflater.inflate(R.layout.fragment_detail_item, parent, false))

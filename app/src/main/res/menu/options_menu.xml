@@ -10,4 +10,8 @@
         android:id="@+id/itemListFragment"
         android:icon="@drawable/baseline_favorite_24"
         android:title="@string/favoritos" />
+    <item
+        android:id="@+id/buscadorFragment"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="@string/buscador" />
 </menu>

@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="500dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".data.FavItemFragment">
 
@@ -13,31 +13,64 @@
         android:src="@drawable/mujer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
 
     <TextView
         android:id="@+id/tvUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/usuario"
-        app:layout_constraintEnd_toEndOf="@+id/ivPhoto"
+        android:text="@string/nombre"
         app:layout_constraintStart_toStartOf="@+id/ivPhoto"
         app:layout_constraintTop_toBottomOf="@+id/ivPhoto"
         tools:text="maria_lopez" />
 
     <TextView
-        android:id="@+id/tvUsuarioDescripcion"
+        android:id="@+id/tvSexo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:text="@string/sexo"
+        app:layout_constraintEnd_toEndOf="@id/ivPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/ivPhoto"
+        tools:text="maria_lopez" />
+
+    <TextView
+        android:id="@+id/tvRazaMascotaTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mascotaTexto"
+        app:layout_constraintBottom_toTopOf="@+id/tvUsuarioDescripcion"
+        app:layout_constraintStart_toStartOf="@id/tvUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/tvUsuario"
+        app:layout_goneMarginTop="40dp"
+        tools:text="@string/mascotaTexto" />
+
+    <TextView
+        android:id="@+id/tvRazaMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mascotaTexto"
+        app:layout_constraintBottom_toTopOf="@+id/tvUsuarioDescripcion"
+        app:layout_constraintEnd_toEndOf="@id/tvSexo"
+        app:layout_constraintStart_toEndOf="@+id/tvRazaMascotaTXT"
+        app:layout_constraintTop_toBottomOf="@+id/tvSexo"
+        tools:text="Bulldog" />
+
+    <TextView
+        android:id="@+id/tvUsuarioDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
         android:text="@string/usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/ivPhoto"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/ivPhoto"
-        app:layout_constraintTop_toBottomOf="@+id/tvUsuario"
+        app:layout_goneMarginTop="40dp"
         tools:text="Soy una cuidadora de perros experimentada\ny estoy deseando comenzar a trabajar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

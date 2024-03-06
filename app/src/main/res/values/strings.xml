@@ -8,12 +8,17 @@
     </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="usuario">##**DESCRIPCION DEL USUARIO**##</string>
-    <string name="mascota" ></string>
-    <string name="sexo" ></string>
+    <string name="mascotaTexto">Mi mascota es de raza:</string>
+    <string name="mascota"></string>
+    <string name="sexo"></string>
     <string name="nombre"></string>
     <string name="salir">Volver</string>
     <string name="perfil">Perfil</string>
     <string name="credits">Creditos</string>
     <string name="favoritos">Favoritos</string>
     <string name="contact">Contacto</string>
+    <string name="intro">Preferencias</string>
+    <string name="bienvenida">¡Bienvenido a PetHome!\n\nEstablece tus preferencias</string>
+    <string name="verPantalla">No mostrar de nuevo esta pantalla</string>
+    <string name="buscador">Buscador</string>
 </resources>

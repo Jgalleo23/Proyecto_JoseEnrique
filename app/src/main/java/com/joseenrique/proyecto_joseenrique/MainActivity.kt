@@ -1,5 +1,6 @@
 package com.joseenrique.proyecto_joseenrique
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.core.net.toUri
 import androidx.core.view.GravityCompat
+import androidx.datastore.preferences.preferencesDataStore
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavDeepLinkRequest
 import androidx.navigation.findNavController
@@ -31,8 +33,7 @@ class MainActivity : AppCompatActivity() {
         val navFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
         val navController = navFragment.navController
-//establece la barra con controles
-        //drawerLayout = binding.drawerLayout
+
         NavigationUI.setupActionBarWithNavController(this, navController)
 
         binding.bottomNav.setupWithNavController(navController)
@@ -45,7 +46,6 @@ class MainActivity : AppCompatActivity() {
                 binding.bottomNav.visibility = View.GONE
             }
         }
-
         setContentView(view)
     }
 

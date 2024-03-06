@@ -24,7 +24,6 @@ class CreditsFragment : Fragment() {
 
         val savedUsername = requireContext().getSharedPreferences("savedUsername", Context.MODE_PRIVATE)
         val username = savedUsername.getString("username", "")
-        binding.tvAppName.text = username + getString(R.string.app_description)
         binding.btContact.setOnClickListener {
             val emailIntent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
